@@ -1,6 +1,8 @@
 #include <iostream>
+#include "Car.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    Car a;
+    a.print();
     return 0;
 }
